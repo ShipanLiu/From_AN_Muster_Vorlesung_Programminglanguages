@@ -17,6 +17,10 @@ Typischerweise hat der Observer (Reporter) folgende funktionen und Attribute:
     <li>Funktion für das Benachrichtigen der Abos, welches durch das Interface der Abos erfolgt</li>
 </ul>
 
+Der Observer (Reporter) kann weitere Abonennten hinzufügen.
+Wenn er eine weitere Nachricht bekommt, werden diese durch einen For-Loop an jede Person weitergeleitet
+
+
 
 
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01_Strategie_Muster/01_Strategie_Muster.iml" filepath="$PROJECT_DIR$/01_Strategie_Muster/01_Strategie_Muster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01_Strategie_Muster_Ente/01_Strategie_Muster_Ente.iml" filepath="$PROJECT_DIR$/01_Strategie_Muster_Ente/01_Strategie_Muster_Ente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_Iterator_Muster/02_Iterator_Muster.iml" filepath="$PROJECT_DIR$/02_Iterator_Muster/02_Iterator_Muster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_Observer_Muster/03_Observer_Muster.iml" filepath="$PROJECT_DIR$/03_Observer_Muster/03_Observer_Muster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03_Observer_Muster_v2/03_Observer_Muster_v2.iml" filepath="$PROJECT_DIR$/03_Observer_Muster_v2/03_Observer_Muster_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Muster.iml" filepath="$PROJECT_DIR$/.idea/Muster.iml" />
+    </modules>
+  </component>
+</project>
