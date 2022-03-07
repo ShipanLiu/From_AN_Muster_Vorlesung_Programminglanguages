@@ -34,6 +34,11 @@ Im QuackVerhalten:
     <li>nichts()</li>
 </ul>
 
+Dadurch kann eine Ente selber in der Klasse auswählen, welches Flugverhalten 
+und QuakVerhalten es haben will. Wenn eine Ente lernt zu fliegen, wird einfach das 
+FlugVerhalten ausgetauscht.
+
+
 
 
 
