@@ -28,3 +28,11 @@ dass die Klassen, die es benutzten, darüber wissen müssen.
 
 <h2>Implementierung</h2>
 Für ein richtiges Beispiel siehe <a href="https://github.com/anvinh01/Muster/tree/main/01_Strategie_Muster_Ente">01_Strategie_Muster_Ente</a>.<br>
+Für eine Implementierung des Strategie Musters, benötigen wir ein Interface. Die möglichen Strategien sind Klassen, welches das 
+Interface implementiert. Die funktionen im Interface müssen nur angedeutet werden, da diese in den Strategie 
+Klassen überschrieben werden. Diese Klassen können nur die funktion von Interface zurückgeben, jedoch können intern 
+private Funktionen erstellt werden. <br>
+<h3>Anwendung</h3>
+Wenn jetzt eine Strategie angewendet wird, wird dem Typ Strategie ein new Strat1() zugefügt. 
+Falls die Strategie ein Wert annehmen soll, benötigt diese Klasse einen Konstruktor. 
+Jetzt kann unsere Strategie angewendet werden und wenn nötigt ausgetauscht werden. 
