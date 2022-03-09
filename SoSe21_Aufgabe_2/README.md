@@ -4,7 +4,7 @@ Uns wurde die Aufgabe zugewiesen eine Kaffeemaschine zu erstellen, welches <b>Ka
 Die Brühzeit und Röststufe kann auf <b>HOCH, MITTEL und NIEDRIG</b> eingestellt werden. 
 Das Gerät hat drei Knöpfe: <b>Start, Select und Stop</b> wir erhalten auch ein 
 UML-State-Diagramm.<br>
-![alt text](https://github.com/anvinh01/Muster/blob/main/SoSe21_Aufgabe_2/UML_State_Diagramm.png "UML State Diagramm")
+<img src="UML_State_Diagramm.PNG" alt="UML-State-Diagramm">
 <br>
 Bei einem Zustandswechsel soll jeweils der in den <b>Zuständen angegebene Text in der Konsole erscheinen</b>. 
 <b>Nachdem die Brühzeit und Röststufe</b> ausgewählt wurde, muss man sich danach 
@@ -151,7 +151,7 @@ welches die Kaffeemaschine ist ==> also benötigen wir eine Klasse Kaffe:
                 <li>+ select(): void</li>
                 <li>+ stop(): void</li>
                 <li>+ getState(): State</li>
-                <li>+ setState(): void</li>
+                <li>+ setState(state: State): void</li>
                 <li>+ get_z1_State(): State</li>
                 <li>+ get_z2_State(): State</li>
                 <li>+ get_z3_State(): State</li>
@@ -162,4 +162,20 @@ welches die Kaffeemaschine ist ==> also benötigen wir eine Klasse Kaffe:
         </td>
     </tr>
 </table>
+<h2>Testing</h2>
+Als test führen wir folgende Eingabefolge aus: <br>
+<code>Start, Select, Select, Start, Select, Stop, Select, Start, Stop</code>
+
+Die ausgabe ist folgendes: <br>
+<ol>
+    <li>Kaffee</li>
+    <li>Milchkaffee</li>
+    <li>Brühzeit</li>
+    <li>Brühzeit</li>
+    <li>Röststufe</li>
+    <li>Einstellungen</li>
+    <li>Kaffee</li>
+    <li>kaffee</li>
+    <li>Standby</li>
+</ol>
 
