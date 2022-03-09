@@ -4,7 +4,7 @@ Uns wurde die Aufgabe zugewiesen eine Kaffeemaschine zu erstellen, welches <b>Ka
 Die Brühzeit und Röststufe kann auf <b>HOCH, MITTEL und NIEDRIG</b> eingestellt werden. 
 Das Gerät hat drei Knöpfe: <b>Start, Select und Stop</b> wir erhalten auch ein 
 UML-State-Diagramm.<br>
-![alt text](https://github.com/anvinh01/Muster/blob/main/SoSe21_Aufgabe_2/UML_State_Diagramm.PNG "UML State Diagramm")
+![alt text](https://github.com/anvinh01/Muster/blob/main/SoSe21_Aufgabe_2/UML_State_Diagramm.png "UML State Diagramm")
 <br>
 Bei einem Zustandswechsel soll jeweils der in den <b>Zuständen angegebene Text in der Konsole erscheinen</b>. 
 <b>Nachdem die Brühzeit und Röststufe</b> ausgewählt wurde, muss man sich danach 
